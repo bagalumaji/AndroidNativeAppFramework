@@ -2,7 +2,7 @@ package com.bagal.config;
 
 import com.bagal.convertors.StringToModeTypesConvertor;
 import com.bagal.convertors.StringToUrlConvertor;
-import com.bagal.enums.Mode;
+import com.bagal.enums.RunMode;
 import org.aeonbits.owner.Config;
 
 import java.net.URL;
@@ -16,7 +16,7 @@ import java.net.URL;
 public interface FrameworkConfig extends Config {
 
     @ConverterClass(value = StringToModeTypesConvertor.class)
-    Mode mode();
+    RunMode mode();
 
     String platformName();
 

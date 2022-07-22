@@ -1,5 +1,5 @@
 package com.bagal.enums;
 
-public enum Mode {
+public enum RunMode {
     LOCAL,BS
 }
